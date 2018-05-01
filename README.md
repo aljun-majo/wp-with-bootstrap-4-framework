@@ -5,7 +5,7 @@ Steps:
 
 1.) Add Custom Navigation Walker 
   - Custom WordPress nav walker class is downloaded from -> [wp-bootstrap-navwalker](https://github.com/wp-bootstrap/wp-bootstrap-navwalker)
-  - Put class-wp-bootstrap-navwalker.php in theme folder/dir (e.g. /inc/class-wp-bootstrap-navwalker.php)
+  - Put class-wp-bootstrap-navwalker.php in theme folder/dir (e.g. `/inc/class-wp-bootstrap-navwalker.php')
   - Add this line of code in functions.php file (see line 11)
     `require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';`
 
