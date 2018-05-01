@@ -10,13 +10,16 @@ Underscores starter theme to integrate Bootstrap 4 like wp_nav_menu function, ad
     `require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';`
 
 #### 2.) Enqueuing Scripts and Styles in functions.php
-  - Enqueue Styles 
-     *( **_'/css/style.css'_** - style.css is generated from sass files with bootstrap SASS)*
-   > wp_enqueue_style( 'tga-underscores-custom', get_template_directory_uri() . '/css/style.css' );`
+  - Enqueue Styles ( _'/css/style.css'_ - style.css is generated from sass files with bootstrap SASS)
+  ```
+     wp_enqueue_style( 'tga-underscores-custom', get_template_directory_uri() . '/css/style.css' );
+  ```
   - Enqueue Scripts ( bootstrap JS and custom JS)
-   > wp_enqueue_script( 'tga-underscores-popper', get_template_directory_uri() . '/js/bootstrap/popper.min.js', array('jquery') '20180215', true );
-   > wp_enqueue_script( 'tga-underscores-bootstrap', get_template_directory_uri() . '/js/bootstrap/bootstrap.js', array('jquery') '20180215', true ); 	
-   > wp_enqueue_script( 'tga-underscores-custom', get_template_directory_uri() . '/js/custom.js', array('jquery'), '20180215', true );
+  ```
+    wp_enqueue_script( 'tga-underscores-popper', get_template_directory_uri() . '/js/bootstrap/popper.min.js', array('jquery') '20180215', true );
+    wp_enqueue_script( 'tga-underscores-bootstrap', get_template_directory_uri() . '/js/bootstrap/bootstrap.js', array('jquery') '20180215', true ); 	
+    wp_enqueue_script( 'tga-underscores-custom', get_template_directory_uri() . '/js/custom.js', array('jquery'), '20180215', true );
+  ```
   
 
 #### 3.) Add Bootstrap 4 HTML markup for Page Navigation in header.php file
