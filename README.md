@@ -10,7 +10,7 @@ Underscores starter theme to integrate Bootstrap 4 like wp_nav_menu function, ad
     `require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';`
 
 #### 2.) Enqueuing Scripts and Styles in functions.php
-  - Enqueue Styles (**_/css/style.css_** - style.css is generated from sass files with bootstrap SASS)
+  - Enqueue Styles ( **_ '/css/style.css' _** - style.css is generated from sass files with bootstrap SASS)
       `wp_enqueue_style( 'tga-underscores-custom', get_template_directory_uri() . '/css/style.css' );`
   - Enqueue Scripts (add bootstrap JS)	
 	    `wp_enqueue_script( 'tga-underscores-popper', get_template_directory_uri() . '/js/bootstrap/popper.min.js', array('jquery'), '20180215', true );` 
