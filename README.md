@@ -4,9 +4,9 @@ Underscores starter theme to integrate Bootstrap 4 like wp_nav_menu function, ad
 Steps:
 
 1.) Add Custom Navigation Walker 
-  - Custom WordPress nav walker class downloaded from -> [wp-bootstrap-navwalker](https://github.com/wp-bootstrap/wp-bootstrap-navwalker)
-  - Put class-wp-bootstrap-navwalker.php in theme folder dir (e.g. /inc/class-wp-bootstrap-navwalker.php)
-  - Add this line of code in functions.js file at line 11
+  - Custom WordPress nav walker class is downloaded from -> [wp-bootstrap-navwalker](https://github.com/wp-bootstrap/wp-bootstrap-navwalker)
+  - Put class-wp-bootstrap-navwalker.php in theme folder/dir (e.g. /inc/class-wp-bootstrap-navwalker.php)
+  - Add this line of code in functions.php file (see line 11)
     `require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';`
 
 2.) Enqueuing Scripts and Styles in functions.php
