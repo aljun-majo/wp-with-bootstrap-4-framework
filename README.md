@@ -1,19 +1,19 @@
 # WordPress Theme with Bootstrap 4 Framework
 Underscores starter theme to integrate Bootstrap 4 like wp_nav_menu function, add bootstrap 4 navigation markup using WP Bootstrap Navwalker, add bootstrap 4 grid in theme php templates, add bootstrap carousel slider, add custom post types and custom fields.
 
-Steps:
+### Steps:
 
-1.) Add Custom Navigation Walker 
+#### 1.) Add Custom Navigation Walker 
   - Custom WordPress nav walker class is downloaded from -> [wp-bootstrap-navwalker](https://github.com/wp-bootstrap/wp-bootstrap-navwalker)
   - Put class-wp-bootstrap-navwalker.php in theme folder/dir (e.g. `/inc/class-wp-bootstrap-navwalker.php')
   - Add this line of code in functions.php file (see line 11)
     `require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';`
 
-2.) Enqueuing Scripts and Styles in functions.php
+#### 2.) Enqueuing Scripts and Styles in functions.php
   - Enqueue Styles (add bootstrap CSS)
   - Enqueue Scripts (add bootstrap JS)  
 
-3.) Add Bootstrap 4 HTML markup for Page Navigation in header.php file
+#### 3.) Add Bootstrap 4 HTML markup for Page Navigation in header.php file
 
   - From this markup   
        ```
